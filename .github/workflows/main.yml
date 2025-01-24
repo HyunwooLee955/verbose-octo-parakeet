@@ -35,12 +35,3 @@ jobs:
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
-
-pass:
-  if: always()
-  needs: [lint, tests]
-  runs-on: ubuntu-latest
-  steps:
-      - uses: re-actors/alls-green@release/v1
-        with:
-          jobs: ${{ toJSON(needs) }}
