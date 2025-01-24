@@ -40,5 +40,5 @@ docs = [
   "sphinx-copybutton",
   "sphinx-autodoc-typehints",
   "nox",
-  "nbshpinx",
+  "nbsphinx",
 ]
