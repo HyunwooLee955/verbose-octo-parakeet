@@ -1,2 +1,8 @@
 # python environment
 .venv/
+
+# zip files
+*.tar.gz
+
+# dist folder
+dist/
