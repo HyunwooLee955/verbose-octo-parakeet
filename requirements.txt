@@ -1,0 +1,22 @@
+# core pacakges
+numpy
+scipy
+matplotlib
+
+# interactive packages
+jupyterlab
+ipykernel
+
+# statistical packages
+pandas
+statsmodels
+seaborn
+
+# symbolic computation
+sympy
+
+# image processing
+scikit-image
+
+# machine learning packages
+scikit-learn
