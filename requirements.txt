@@ -1,22 +1,16 @@
-# core pacakges
-numpy
-scipy
-matplotlib
-
 # interactive packages
 jupyterlab
-ipykernel
-
+matplotlib
+# core pacakges
+numpy
 # statistical packages
 pandas
-statsmodels
-seaborn
-
-# symbolic computation
-sympy
-
 # image processing
 scikit-image
-
 # machine learning packages
 scikit-learn
+scipy
+seaborn
+statsmodels
+# symbolic computation
+sympy
