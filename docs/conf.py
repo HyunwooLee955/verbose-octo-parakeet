@@ -5,20 +5,14 @@ extensions = [
     "myst_parser",
     "sphinx.ext.autodoc",
     "sphinx.ext.intersphinx",
-    "sphinx.ext.viewcode",
     "sphinx.ext.napoleon",
-    "sphinx.ext.autosectionlabel",
-    "sphinx.ext.todo",
     "sphinx.ext.coverage",
     "sphinx.ext.mathjax",
     "sphinx.ext.ifconfig",
     "sphinx.ext.githubpages",
     "sphinx.ext.doctest",
-    "sphinx.ext.inheritance_diagram",
     "sphinx.ext.autosummary",
-    "sphinx.ext.extlinks",
-    "sphinx.ext.graphviz",
-    "nbshpinx",
+    "nbsphinx",
     ]
 source_suffix = [".rst", ".md"]
 
