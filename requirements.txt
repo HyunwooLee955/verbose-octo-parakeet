@@ -5,6 +5,8 @@ matplotlib
 numpy
 # statistical packages
 pandas
+# get data from the web
+pooch
 # image processing
 scikit-image
 # machine learning packages

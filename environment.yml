@@ -12,3 +12,4 @@ dependencies:
   - sympy
   - scikit-learn
   - scikit-image
+  - pooch
