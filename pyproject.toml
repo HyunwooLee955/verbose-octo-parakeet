@@ -31,3 +31,12 @@ log_cli_level = "info"
 testpaths = [
   "tests",
 ]
+
+[project.optional-dependencies]
+docs = [
+  "furo",
+  "myst_parser >=0.13",
+  "sphinx >=4.0",
+  "sphinx-copybutton",
+  "sphinx-autodoc-typehints",
+]
