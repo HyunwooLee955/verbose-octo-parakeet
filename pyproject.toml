@@ -21,3 +21,13 @@ license-files = ["LICEN[CS]E*"]
 [project.urls]
 Homepage = "https://github.com/HyunwooLee955/ksbcw"
 Issues = "https://github.com/HyunwooLee955/ksbcw/issues"
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = ["-ra", "--showlocals", "--strict-markers", "--strict-config"]
+xfail_strict = true
+filterwarnings = ["error"]
+log_cli_level = "info"
+testpaths = [
+  "tests",
+]
