@@ -1,18 +1,16 @@
 # interactive packages
 jupyterlab
-matplotlib
 # core pacakges
 numpy
+scipy
+matplotlib
 # statistical packages
 pandas
-# get data from the web
-pooch
+statsmodels
+seaborn
+# symbolic computation
+sympy
 # image processing
 scikit-image
 # machine learning packages
 scikit-learn
-scipy
-seaborn
-statsmodels
-# symbolic computation
-sympy
