@@ -14,3 +14,9 @@ sympy
 scikit-image
 # machine learning packages
 scikit-learn
+
+# additional packages
+gsw
+xarray
+netcdf4
+h5netcdf
