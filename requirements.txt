@@ -20,3 +20,5 @@ gsw
 xarray
 netcdf4
 h5netcdf
+tables
+sparse
