@@ -1,4 +1,7 @@
 
 # pixi environments
-.pixi
+.venv/*
 *.egg-info
+.DS_Store
+__pycache__
+*.pyc
