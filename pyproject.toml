@@ -1,0 +1,64 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ksbcw"
+version = "2025.0.0a"
+dependencies = [
+  "numpy",
+  "scipy",
+  "matplotlib",
+  "pandas",
+  "statsmodels",
+  "seaborn",
+  "scikit-learn",
+  "scikit-image",
+  "gsw",
+  "cmocean",
+  "xarray",
+  "netcdf4",
+  "h5netcdf",
+  "sparse",
+  "pytables",
+  "pyarrow",
+]
+requires-python = ">=3.9"
+authors = [
+  {name = "Lee Hyunwoo", email = "hyunwoo9174@outlook.com"},
+]
+maintainers = [
+  {name = "Lee Hyunwoo", email = "hyunwoo9174@outlook.com"}
+]
+description = "Research Korea Strait Bottom Cold Water"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+keywords = ["physical oceanography", "statistics", "Korea Strait"]
+
+[project.optional-dependencies]
+gui = ["PyQt5"]
+docs = [
+    "sphinx",
+    "myst_parser",
+]
+test = [
+    "pytest",
+    "hypothesis",
+]
+
+[project.urls]
+Homepage = "https://example.com"
+Documentation = "https://readthedocs.org"
+Repository = "https://github.com/me/spam.git"
+"Bug Tracker" = "https://github.com/me/spam/issues"
+Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
+
+[project.scripts]
+spam-cli = "spam:main_cli"
+
+[project.gui-scripts]
+spam-gui = "spam:main_gui"
+
+[project.entry-points."spam.magical"]
+tomatoes = "spam:main_tomatoes"
