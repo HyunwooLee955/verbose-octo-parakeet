@@ -1,0 +1,19 @@
+name: myenv
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - jupyterlab
+  - sympy
+  - statsmodels
+  - seaborn
+  - scikit-learn
+  - scikit-image
+  - cython
+  - gsw
+  - cmocean
+
